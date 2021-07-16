@@ -1,1 +1,2 @@
-# landing-page
+# EscrowX.github.io
+🏠 Project landing page
