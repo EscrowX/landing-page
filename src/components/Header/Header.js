@@ -29,6 +29,9 @@ function Header() {
 				<nav className={isNavbarOpen ? `${nav} ${navOpened}` : nav}>
 					<ul className={navList}>
 						<li className={navItem}>
+							<a href="https://invis.io/YJ10RDVLZ87R">Demo</a>
+						</li>
+						<li className={navItem}>
 							<a href="#">FAQ</a>
 						</li>
 						<li className={navItem}>
