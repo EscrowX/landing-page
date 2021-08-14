@@ -29,10 +29,10 @@ function Header() {
 				<nav className={isNavbarOpen ? `${nav} ${navOpened}` : nav}>
 					<ul className={navList}>
 						<li className={navItem}>
-							<a href="https://invis.io/YJ10RDVLZ87R" target="_blank">Demo</a>
+							<a href="https://invis.io/YJ10RDVLZ87R" target="_blank" rel="noreferrer">Demo</a>
 						</li>
 						<li className={navItem}>
-							<a href="https://faq.escrowx.io/" target="_blank">FAQ</a>
+							<a href="https://faq.escrowx.io/" target="_blank" rel="noreferrer">FAQ</a>
 						</li>
 						<li className={navItem}>
 							<a href="#">about us</a>
