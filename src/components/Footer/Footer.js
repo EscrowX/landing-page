@@ -29,7 +29,7 @@ function Footer() {
 					<nav className={nav}>
 						<ul className={navList}>
 							<li className={navItem}>
-								<a href="https://invis.io/YJ10RDVLZ87R">Demo</a>
+								<a href="https://invis.io/YJ10RDVLZ87R" target="_blank">Demo</a>
 							</li>
 							<li className={navItem}>
 								<a href="#">FAQ</a>
