@@ -22,8 +22,8 @@ function Footer() {
 	return (
 		<footer className={footer}>
 			<div className={container}>
-				<a href="#">
-					<img className={logo} src={logoShape} alt="" />
+				<a href="https://escrowx.io">
+					<img className={logo} src={logoShape} alt="EscrowX - Simple Contracts on Blockchain" />
 				</a>
 				<div className={info}>
 					<nav className={nav}>
@@ -32,7 +32,7 @@ function Footer() {
 								<a href="https://invis.io/YJ10RDVLZ87R" target="_blank">Demo</a>
 							</li>
 							<li className={navItem}>
-								<a href="#">FAQ</a>
+								<a href="https://faq.escrowx.io/" target="_blank">FAQ</a>
 							</li>
 							<li className={navItem}>
 								<a href="#">about us</a>
