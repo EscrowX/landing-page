@@ -36,7 +36,7 @@ function Hero() {
 				</div>
 				<div className={right}>
 					<div className={videoContainer}>
-						<img className={video} src={img} alt="" />
+						<img className={video} src={img} alt="EscrowX - Simple Contracts on Blockchain" />
 					</div>
 					<p className={textVideo}>Watch 1 Minute video on what is EscrowX</p>
 				</div>
