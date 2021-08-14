@@ -26,7 +26,7 @@ function Hero() {
 						book or a car in case he will not return it.
 					</p>
 					<div className={btnContainer}>
-						<a className="btn btn-solid" href="https://invis.io/YJ10RDVLZ87R">
+						<a className="btn btn-solid" href="https://invis.io/YJ10RDVLZ87R" target="_blank">
 							launch demo
 						</a>
 						<a className="btn btn-outline" href="#">
