@@ -26,7 +26,7 @@ function Hero() {
 						book or a car in case he will not return it.
 					</p>
 					<div className={btnContainer}>
-						<a className="btn btn-solid" href="https://invis.io/YJ10RDVLZ87R">
+						<a className="btn btn-solid" href="https://invis.io/YJ10RDVLZ87R" target="_blank" rel="noreferrer">
 							launch demo
 						</a>
 						<a className="btn btn-outline" href="#">
@@ -36,7 +36,7 @@ function Hero() {
 				</div>
 				<div className={right}>
 					<div className={videoContainer}>
-						<img className={video} src={img} alt="" />
+						<img className={video} src={img} alt="EscrowX - Simple Contracts on Blockchain" />
 					</div>
 					<p className={textVideo}>Watch 1 Minute video on what is EscrowX</p>
 				</div>

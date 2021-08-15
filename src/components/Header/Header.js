@@ -22,17 +22,17 @@ function Header() {
 		<header className={header}>
 			<div className={container}>
 				<h1 className={logo}>
-					<a href="#">
-						<img src={logoEscrowX} alt="" />
+					<a href="https://escrowx.io">
+						<img src={logoEscrowX} alt="EscrowX - Simple Contracts on Blockchain" />
 					</a>
 				</h1>
 				<nav className={isNavbarOpen ? `${nav} ${navOpened}` : nav}>
 					<ul className={navList}>
 						<li className={navItem}>
-							<a href="https://invis.io/YJ10RDVLZ87R">Demo</a>
+							<a href="https://invis.io/YJ10RDVLZ87R" target="_blank" rel="noreferrer">Demo</a>
 						</li>
 						<li className={navItem}>
-							<a href="#">FAQ</a>
+							<a href="https://faq.escrowx.io/" target="_blank" rel="noreferrer">FAQ</a>
 						</li>
 						<li className={navItem}>
 							<a href="#">about us</a>
