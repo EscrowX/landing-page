@@ -1,11 +1,8 @@
 import React from "react";
+import TokenInfo from "../components/TokenInfo/TokenInfo";
 
 const Token = () => {
-	return (
-		<div>
-			<h2>Token Page</h2>
-		</div>
-	);
+	return <TokenInfo />;
 };
 
 export default Token;

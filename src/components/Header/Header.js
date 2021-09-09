@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import headerStyles from "./Header.module.css";
 import logoEscrowX from "../../assets/logo.svg";
 
@@ -15,6 +15,7 @@ function Header() {
 		navItem,
 		navBtn,
 		navBtnOpened,
+		activeNavLink,
 	} = headerStyles;
 	const handleNavbar = () => {
 		setIsNavbarOpen((prevState) => !prevState);
@@ -34,6 +35,7 @@ function Header() {
 					<ul className={navList}>
 						<li className={navItem}>
 							<a
+								onClick={() => setIsNavbarOpen(false)}
 								href="https://invis.io/YJ10RDVLZ87R"
 								target="_blank"
 								rel="noreferrer"
@@ -43,6 +45,7 @@ function Header() {
 						</li>
 						<li className={navItem}>
 							<a
+								onClick={() => setIsNavbarOpen(false)}
 								href="https://faq.escrowx.io/"
 								target="_blank"
 								rel="noreferrer"
@@ -51,16 +54,40 @@ function Header() {
 							</a>
 						</li>
 						<li className={navItem}>
-							<Link to="/about">about us</Link>
+							<NavLink
+								activeClassName={activeNavLink}
+								onClick={() => setIsNavbarOpen(false)}
+								to="/about"
+							>
+								about us
+							</NavLink>
 						</li>
 						<li className={navItem}>
-							<Link to="/white-paper">white paper</Link>
+							<NavLink
+								activeClassName={activeNavLink}
+								onClick={() => setIsNavbarOpen(false)}
+								to="/white-paper"
+							>
+								white paper
+							</NavLink>
 						</li>
 						<li className={navItem}>
-							<Link to="/token">token</Link>
+							<NavLink
+								activeClassName={activeNavLink}
+								onClick={() => setIsNavbarOpen(false)}
+								to="/token"
+							>
+								token
+							</NavLink>
 						</li>
 						<li className={navItem}>
-							<Link to="/contact">contact us</Link>
+							<NavLink
+								activeClassName={activeNavLink}
+								onClick={() => setIsNavbarOpen(false)}
+								to="/contact"
+							>
+								contact us
+							</NavLink>
 						</li>
 					</ul>
 				</nav>
