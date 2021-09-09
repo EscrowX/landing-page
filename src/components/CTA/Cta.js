@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ctaStyles from "./Cta.module.css";
 
 function Cta() {
@@ -13,9 +14,9 @@ function Cta() {
 				</p>
 
 				<div className={btnContainer}>
-					<a className="btn btn-solid" href="#">
+					<Link className="btn btn-solid" to="/contact">
 						contact us
-					</a>
+					</Link>
 					<a className="btn btn-outline" href="#">
 						read deck
 					</a>

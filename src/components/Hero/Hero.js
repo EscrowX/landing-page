@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import heroStyles from "./Hero.module.css";
 import img from "../../assets/vid1.jpg";
 
@@ -26,17 +27,26 @@ function Hero() {
 						book or a car in case he will not return it.
 					</p>
 					<div className={btnContainer}>
-						<a className="btn btn-solid" href="https://invis.io/YJ10RDVLZ87R" target="_blank" rel="noreferrer">
+						<a
+							className="btn btn-solid"
+							href="https://invis.io/YJ10RDVLZ87R"
+							target="_blank"
+							rel="noreferrer"
+						>
 							launch demo
 						</a>
-						<a className="btn btn-outline" href="#">
+						<Link className="btn btn-outline" to="/white-paper">
 							white paper
-						</a>
+						</Link>
 					</div>
 				</div>
 				<div className={right}>
 					<div className={videoContainer}>
-						<img className={video} src={img} alt="EscrowX - Simple Contracts on Blockchain" />
+						<img
+							className={video}
+							src={img}
+							alt="EscrowX - Simple Contracts on Blockchain"
+						/>
 					</div>
 					<p className={textVideo}>Watch 1 Minute video on what is EscrowX</p>
 				</div>

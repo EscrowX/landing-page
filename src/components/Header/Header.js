@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import headerStyles from "./Header.module.css";
 import logoEscrowX from "../../assets/logo.svg";
 
@@ -22,29 +23,44 @@ function Header() {
 		<header className={header}>
 			<div className={container}>
 				<h1 className={logo}>
-					<a href="https://escrowx.io">
-						<img src={logoEscrowX} alt="EscrowX - Simple Contracts on Blockchain" />
-					</a>
+					<Link to="/">
+						<img
+							src={logoEscrowX}
+							alt="EscrowX - Simple Contracts on Blockchain"
+						/>
+					</Link>
 				</h1>
 				<nav className={isNavbarOpen ? `${nav} ${navOpened}` : nav}>
 					<ul className={navList}>
 						<li className={navItem}>
-							<a href="https://invis.io/YJ10RDVLZ87R" target="_blank" rel="noreferrer">Demo</a>
+							<a
+								href="https://invis.io/YJ10RDVLZ87R"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Demo
+							</a>
 						</li>
 						<li className={navItem}>
-							<a href="https://faq.escrowx.io/" target="_blank" rel="noreferrer">FAQ</a>
+							<a
+								href="https://faq.escrowx.io/"
+								target="_blank"
+								rel="noreferrer"
+							>
+								FAQ
+							</a>
 						</li>
 						<li className={navItem}>
-							<a href="#">about us</a>
+							<Link to="/about">about us</Link>
 						</li>
 						<li className={navItem}>
-							<a href="#">white paper</a>
+							<Link to="/white-paper">white paper</Link>
 						</li>
 						<li className={navItem}>
-							<a href="#">token</a>
+							<Link to="/token">token</Link>
 						</li>
 						<li className={navItem}>
-							<a href="#">contact us</a>
+							<Link to="/contact">contact us</Link>
 						</li>
 					</ul>
 				</nav>
