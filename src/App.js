@@ -1,18 +1,27 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import Layout from "./components/Layout/Layout";
-import Hero from "./components/Hero/Hero";
-import Step from "./components/Step/Step";
-import Cta from "./components/CTA/Cta";
-import data from "./data";
+import Home from "./pages/Home";
+import Token from "./pages/Token";
+import Error from "./pages/Error";
 
 function App() {
 	return (
-		<Layout>
-			<Hero />
-			{data.map((step, index) => {
-				return <Step key={step.id} index={index} {...step} />;
-			})}
-			<Cta />
-		</Layout>
+		<Router>
+			<Layout>
+				<Switch>
+					<Route exact path="/">
+						<Home />
+					</Route>
+					<Route exact path="/token">
+						<Token />
+					</Route>
+					<Route path="*">
+						<Error />
+					</Route>
+				</Switch>
+			</Layout>
+		</Router>
 	);
 }
 
