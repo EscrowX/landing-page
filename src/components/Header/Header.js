@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import headerStyles from "./Header.module.css";
 import logoEscrowX from "../../assets/logo.svg";
 
@@ -14,6 +15,7 @@ function Header() {
 		navItem,
 		navBtn,
 		navBtnOpened,
+		activeNavLink,
 	} = headerStyles;
 	const handleNavbar = () => {
 		setIsNavbarOpen((prevState) => !prevState);
@@ -22,29 +24,70 @@ function Header() {
 		<header className={header}>
 			<div className={container}>
 				<h1 className={logo}>
-					<a href="https://escrowx.io">
-						<img src={logoEscrowX} alt="EscrowX - Simple Contracts on Blockchain" />
-					</a>
+					<Link to="/">
+						<img
+							src={logoEscrowX}
+							alt="EscrowX - Simple Contracts on Blockchain"
+						/>
+					</Link>
 				</h1>
 				<nav className={isNavbarOpen ? `${nav} ${navOpened}` : nav}>
 					<ul className={navList}>
 						<li className={navItem}>
-							<a href="https://invis.io/YJ10RDVLZ87R" target="_blank" rel="noreferrer">Demo</a>
+							<a
+								onClick={() => setIsNavbarOpen(false)}
+								href="https://invis.io/YJ10RDVLZ87R"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Demo
+							</a>
 						</li>
 						<li className={navItem}>
-							<a href="https://faq.escrowx.io/" target="_blank" rel="noreferrer">FAQ</a>
+							<a
+								onClick={() => setIsNavbarOpen(false)}
+								href="https://faq.escrowx.io/"
+								target="_blank"
+								rel="noreferrer"
+							>
+								FAQ
+							</a>
 						</li>
 						<li className={navItem}>
-							<a href="#">about us</a>
+							<NavLink
+								activeClassName={activeNavLink}
+								onClick={() => setIsNavbarOpen(false)}
+								to="/about"
+							>
+								about us
+							</NavLink>
 						</li>
 						<li className={navItem}>
-							<a href="#">white paper</a>
+							<NavLink
+								activeClassName={activeNavLink}
+								onClick={() => setIsNavbarOpen(false)}
+								to="/white-paper"
+							>
+								white paper
+							</NavLink>
 						</li>
 						<li className={navItem}>
-							<a href="#">token</a>
+							<NavLink
+								activeClassName={activeNavLink}
+								onClick={() => setIsNavbarOpen(false)}
+								to="/token"
+							>
+								token
+							</NavLink>
 						</li>
 						<li className={navItem}>
-							<a href="#">contact us</a>
+							<NavLink
+								activeClassName={activeNavLink}
+								onClick={() => setIsNavbarOpen(false)}
+								to="/contact"
+							>
+								contact us
+							</NavLink>
 						</li>
 					</ul>
 				</nav>

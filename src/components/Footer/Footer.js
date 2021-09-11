@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import footerStyles from "./Footer.module.css";
 import medium from "../../assets/icons-medium.svg";
 import telegram from "../../assets/icons-telegram.svg";
@@ -22,29 +23,45 @@ function Footer() {
 	return (
 		<footer className={footer}>
 			<div className={container}>
-				<a href="https://escrowx.io">
-					<img className={logo} src={logoShape} alt="EscrowX - Simple Contracts on Blockchain" />
-				</a>
+				<Link to="/">
+					<img
+						className={logo}
+						src={logoShape}
+						alt="EscrowX - Simple Contracts on Blockchain"
+					/>
+				</Link>
 				<div className={info}>
 					<nav className={nav}>
 						<ul className={navList}>
 							<li className={navItem}>
-								<a href="https://invis.io/YJ10RDVLZ87R" target="_blank" rel="noreferrer">Demo</a>
+								<a
+									href="https://invis.io/YJ10RDVLZ87R"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Demo
+								</a>
 							</li>
 							<li className={navItem}>
-								<a href="https://faq.escrowx.io/" target="_blank" rel="noreferrer">FAQ</a>
+								<a
+									href="https://faq.escrowx.io/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									FAQ
+								</a>
 							</li>
 							<li className={navItem}>
-								<a href="#">about us</a>
+								<Link to="/about">about us</Link>
 							</li>
 							<li className={navItem}>
-								<a href="#">token</a>
+								<Link to="/token">token</Link>
 							</li>
 							<li className={navItem}>
-								<a href="#">white paper</a>
+								<Link to="/white-paper">white paper</Link>
 							</li>
 							<li className={navItem}>
-								<a href="#">contact us</a>
+								<Link to="/contact">contact us</Link>
 							</li>
 						</ul>
 					</nav>
