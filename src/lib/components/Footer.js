@@ -7,7 +7,7 @@ import twitter from "../../assets/icons-twitter.svg";
 import youtube from "../../assets/icons-youtube.svg";
 import logoShape from "../../assets/logo-s.svg";
 
-function Footer() {
+export const Footer = () => {
 	const {
 		footer,
 		container,
@@ -84,6 +84,4 @@ function Footer() {
 			</div>
 		</footer>
 	);
-}
-
-export default Footer;
+};

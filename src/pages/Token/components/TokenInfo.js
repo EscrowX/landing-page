@@ -1,7 +1,7 @@
 import React from "react";
 import tokenInfoStyles from "./TokenInfo.module.css";
 
-const TokenInfo = () => {
+export const TokenInfo = () => {
 	const { section, container, title, TBAsection, TBAtext } = tokenInfoStyles;
 	return (
 		<section className={section}>
@@ -14,5 +14,3 @@ const TokenInfo = () => {
 		</section>
 	);
 };
-
-export default TokenInfo;
