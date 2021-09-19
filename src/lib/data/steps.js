@@ -1,9 +1,9 @@
-import img1 from "./assets/img1.png";
-import img2 from "./assets/img2.png";
-import img3 from "./assets/img3.png";
-import img4 from "./assets/img4.png";
+import img1 from "../../assets/img1.png";
+import img2 from "../../assets/img2.png";
+import img3 from "../../assets/img3.png";
+import img4 from "../../assets/img4.png";
 
-const data = [
+export const steps = [
 	{
 		id: 1,
 		title: "Set Escrow Rules",
@@ -29,5 +29,3 @@ const data = [
 		desc: "When the return date is expired, and you haven’t received your item back, you can request a smart contract to return you 100% value of the asset. The remaining 50% will be liquidated among ESX token holders. If your friend returns an asset on time, he will receive 150% of funds from an escrow. ",
 	},
 ];
-
-export default data;

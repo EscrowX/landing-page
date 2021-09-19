@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ctaStyles from "./Cta.module.css";
 
-function Cta() {
+export const Cta = () => {
 	const { section, container, title, text, btnContainer } = ctaStyles;
 	return (
 		<section className={section}>
@@ -17,13 +17,11 @@ function Cta() {
 					<Link className="btn btn-solid" to="/contact">
 						contact us
 					</Link>
-					<a className="btn btn-outline" href="#">
+					<Link className="btn btn-outline" to="/white-paper">
 						read deck
-					</a>
+					</Link>
 				</div>
 			</div>
 		</section>
 	);
-}
-
-export default Cta;
+};
