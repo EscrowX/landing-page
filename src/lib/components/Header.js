@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import headerStyles from "./Header.module.css";
 import logoEscrowX from "../../assets/logo.svg";
 
-function Header() {
+export const Header = () => {
 	const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 	const {
 		header,
@@ -104,6 +104,4 @@ function Header() {
 			</div>
 		</header>
 	);
-}
-
-export default Header;
+};

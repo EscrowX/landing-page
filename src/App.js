@@ -1,9 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
-import Layout from "./components/Layout/Layout";
-import Home from "./pages/Home";
-import Token from "./pages/Token";
-import Error from "./pages/Error";
+import { Layout } from "./lib/components";
+import { About, Error, Token, Home } from "./pages";
 
 function App() {
 	return (
@@ -13,8 +10,11 @@ function App() {
 					<Route exact path="/">
 						<Home />
 					</Route>
-					<Route exact path="/token">
+					<Route path="/token">
 						<Token />
+					</Route>
+					<Route path="/about">
+						<About />
 					</Route>
 					<Route path="*">
 						<Error />

@@ -1,7 +1,7 @@
 import React from "react";
 import StepStyles from "./Step.module.css";
 
-function Step({ index, title, img, desc }) {
+export const Step = ({ index, title, img, desc }) => {
 	const {
 		section,
 		container,
@@ -34,6 +34,4 @@ function Step({ index, title, img, desc }) {
 			</div>
 		</section>
 	);
-}
-
-export default Step;
+};

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import heroStyles from "./Hero.module.css";
-import img from "../../assets/vid1.jpg";
+import img from "../../../assets/vid1.jpg";
 
-function Hero() {
+export const Hero = () => {
 	const {
 		hero,
 		container,
@@ -53,6 +53,4 @@ function Hero() {
 			</div>
 		</section>
 	);
-}
-
-export default Hero;
+};
