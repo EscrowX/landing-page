@@ -68,17 +68,17 @@ export const Footer = () => {
 					<p className={copyright}>©2021 EscrowX. All Rights Reserved</p>
 				</div>
 				<div className={socialLinks}>
-					<a className={socialLink} href="#">
-						<img src={youtube} alt="" />
+					<a className={socialLink} href="https://www.youtube.com/channel/UCpEFAQXdK6_SFqJjZlwTR7g">
+						<img src={youtube} alt="EscrowX YouTube" />
+					</a>
+					<a className={socialLink} href="https://t.me/escrowx_announcements">
+						<img src={telegram} alt="EscrowX Announcements" />
 					</a>
 					<a className={socialLink} href="#">
-						<img src={telegram} alt="" />
+						<img src={medium} alt="EscrowX Medium" />
 					</a>
-					<a className={socialLink} href="#">
-						<img src={medium} alt="" />
-					</a>
-					<a className={socialLink} href="#">
-						<img src={twitter} alt="" />
+					<a className={socialLink} href="https://twitter.com/escrow_x">
+						<img src={twitter} alt="EscrowX Twitter" />
 					</a>
 				</div>
 			</div>

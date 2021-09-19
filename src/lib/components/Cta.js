@@ -17,9 +17,9 @@ export const Cta = () => {
 					<Link className="btn btn-solid" to="/contact">
 						contact us
 					</Link>
-					<a className="btn btn-outline" href="#">
+					<Link className="btn btn-outline" to="/white-paper">
 						read deck
-					</a>
+					</Link>
 				</div>
 			</div>
 		</section>
