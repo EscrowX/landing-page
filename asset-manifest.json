@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c9e8b6f.chunk.css",
-    "main.js": "/static/js/main.7f01ac24.chunk.js",
-    "main.js.map": "/static/js/main.7f01ac24.chunk.js.map",
+    "main.css": "/static/css/main.ea0940f3.chunk.css",
+    "main.js": "/static/js/main.66236151.chunk.js",
+    "main.js.map": "/static/js/main.66236151.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9cee355c.js",
     "runtime-main.js.map": "/static/js/runtime-main.9cee355c.js.map",
-    "static/js/2.6b624059.chunk.js": "/static/js/2.6b624059.chunk.js",
-    "static/js/2.6b624059.chunk.js.map": "/static/js/2.6b624059.chunk.js.map",
+    "static/js/2.6956f796.chunk.js": "/static/js/2.6956f796.chunk.js",
+    "static/js/2.6956f796.chunk.js.map": "/static/js/2.6956f796.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9c9e8b6f.chunk.css.map": "/static/css/main.9c9e8b6f.chunk.css.map",
-    "static/js/2.6b624059.chunk.js.LICENSE.txt": "/static/js/2.6b624059.chunk.js.LICENSE.txt",
+    "static/css/main.ea0940f3.chunk.css.map": "/static/css/main.ea0940f3.chunk.css.map",
+    "static/js/2.6956f796.chunk.js.LICENSE.txt": "/static/js/2.6956f796.chunk.js.LICENSE.txt",
+    "static/media/domagala.96889238.png": "/static/media/domagala.96889238.png",
     "static/media/icons-medium.daa82848.svg": "/static/media/icons-medium.daa82848.svg",
     "static/media/icons-telegram.c64755f3.svg": "/static/media/icons-telegram.c64755f3.svg",
     "static/media/icons-twitter.7b5146da.svg": "/static/media/icons-twitter.7b5146da.svg",
@@ -18,14 +19,17 @@
     "static/media/img2.ab2083ef.png": "/static/media/img2.ab2083ef.png",
     "static/media/img3.07397a88.png": "/static/media/img3.07397a88.png",
     "static/media/img4.060d594d.png": "/static/media/img4.060d594d.png",
+    "static/media/kowalczyk.21961a26.png": "/static/media/kowalczyk.21961a26.png",
     "static/media/logo-s.3da96a93.svg": "/static/media/logo-s.3da96a93.svg",
     "static/media/logo.9a0ea4cc.svg": "/static/media/logo.9a0ea4cc.svg",
+    "static/media/nowak.13875d25.png": "/static/media/nowak.13875d25.png",
+    "static/media/skrabucha.368745ee.jpg": "/static/media/skrabucha.368745ee.jpg",
     "static/media/vid1.af5c6a1e.jpg": "/static/media/vid1.af5c6a1e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9cee355c.js",
-    "static/js/2.6b624059.chunk.js",
-    "static/css/main.9c9e8b6f.chunk.css",
-    "static/js/main.7f01ac24.chunk.js"
+    "static/js/2.6956f796.chunk.js",
+    "static/css/main.ea0940f3.chunk.css",
+    "static/js/main.66236151.chunk.js"
   ]
 }
