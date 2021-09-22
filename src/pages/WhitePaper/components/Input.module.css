@@ -1,0 +1,19 @@
+.inputContainer {
+	display: flex;
+	flex-direction: column;
+}
+.labelStyle {
+	font-size: 20px;
+	line-height: 1.7;
+}
+.inputStyle {
+	border: none;
+	border-radius: 8px;
+	padding: 8px;
+	font-size: 16px;
+	max-width: 380px;
+	margin-bottom: 16px;
+}
+.inputStyle:focus-visible {
+	outline: none;
+}
