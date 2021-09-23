@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Layout } from "./lib/components";
-import { About, Error, Token, Home } from "./pages";
+import { About, Error, Token, Home, WhitePaper } from "./pages";
 
 function App() {
 	return (
@@ -15,6 +15,9 @@ function App() {
 					</Route>
 					<Route path="/about">
 						<About />
+					</Route>
+					<Route path="/white-paper">
+						<WhitePaper />
 					</Route>
 					<Route path="*">
 						<Error />
