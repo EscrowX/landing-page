@@ -1,0 +1,31 @@
+.section {
+	padding: 100px 0;
+	margin: 0 auto;
+	width: min(100%, 1400px);
+	border-bottom: 1px solid var(--grey-dark);
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: min(95%, 1200px);
+	margin: 0 auto;
+	background-color: var(--gray-dark1);
+}
+.imgContainer {
+	flex: 1;
+	width: 100%;
+	min-width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.img {
+	width: auto;
+	height: 100%;
+}
+@media only screen and (max-width: 768px) {
+	.imgContainer {
+		min-width: 100%;
+	}
+}
