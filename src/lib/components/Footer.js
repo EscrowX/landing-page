@@ -35,7 +35,7 @@ export const Footer = () => {
 						<ul className={navList}>
 							<li className={navItem}>
 								<a
-									href="https://invis.io/YJ10RDVLZ87R"
+									href="https://invis.io/GK10TG16NXD6"
 									target="_blank"
 									rel="noreferrer"
 								>

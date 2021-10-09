@@ -29,7 +29,7 @@ export const Hero = () => {
 					<div className={btnContainer}>
 						<a
 							className="btn btn-solid"
-							href="https://invis.io/YJ10RDVLZ87R"
+							href="https://invis.io/GK10TG16NXD6"
 							target="_blank"
 							rel="noreferrer"
 						>
