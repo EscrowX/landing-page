@@ -1,0 +1,13 @@
+.section {
+	padding: 100px 0;
+	margin: 0 auto;
+	width: min(100%, 1400px);
+	border-bottom: 1px solid var(--grey-dark);
+}
+.container {
+	margin: 0 auto;
+	width: min(95%, 1200px);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}

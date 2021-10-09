@@ -36,7 +36,7 @@ export const Header = () => {
 						<li className={navItem}>
 							<a
 								onClick={() => setIsNavbarOpen(false)}
-								href="https://invis.io/YJ10RDVLZ87R"
+								href="https://invis.io/GK10TG16NXD6"
 								target="_blank"
 								rel="noreferrer"
 							>

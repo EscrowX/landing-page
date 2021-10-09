@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import heroStyles from "./Hero.module.css";
-import img from "../../../assets/vid1.jpg";
+import img from "../../../assets/vid1.png";
 
 export const Hero = () => {
 	const {
@@ -29,7 +29,7 @@ export const Hero = () => {
 					<div className={btnContainer}>
 						<a
 							className="btn btn-solid"
-							href="https://invis.io/YJ10RDVLZ87R"
+							href="https://invis.io/GK10TG16NXD6"
 							target="_blank"
 							rel="noreferrer"
 						>

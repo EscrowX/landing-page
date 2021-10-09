@@ -17,3 +17,15 @@
 .inputStyle:focus-visible {
 	outline: none;
 }
+.textareaStyle {
+	border: none;
+	border-radius: 8px;
+	padding: 8px;
+	font-size: 16px;
+	margin-bottom: 16px;
+	resize: none;
+	height: 180px;
+}
+.textareaStyle:focus-visible {
+	outline: none;
+}
