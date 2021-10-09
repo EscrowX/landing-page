@@ -33,7 +33,7 @@ export const WhitePaperForm = () => {
 				<Input
 					onChange={handleChange}
 					name="fullName"
-					label="First and Last Name"
+					label="Your Name:"
 				/>
 				<Button
 					onClick={(e) => handleSubmit(e)}
