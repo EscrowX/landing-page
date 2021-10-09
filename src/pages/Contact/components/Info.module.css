@@ -1,0 +1,57 @@
+.container {
+	padding: 40px;
+	flex: 1;
+	width: 100%;
+	min-width: 500px;
+}
+.title {
+	font-size: 36px;
+}
+.section {
+	padding: 30px 0;
+	border-bottom: 1px solid var(--gray);
+	width: 100%;
+}
+.officeContainer {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	margin-top: 16px;
+}
+.officeText {
+	margin-left: 12px;
+	font-size: 20px;
+	line-height: 1.7;
+}
+.socialLinksContainer {
+	display: flex;
+	gap: 10px;
+	margin-top: 16px;
+}
+.telegramJoinBtn {
+	border: solid 1px var(--white);
+	border-radius: 50px;
+	padding: 13px 30px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.7;
+	cursor: pointer;
+	text-transform: capitalize;
+	transition: 0.2s all;
+	text-align: center;
+	background-color: transparent;
+	color: var(--white);
+	display: block;
+}
+.telegramJoinBtn:hover {
+	background-color: var(--white);
+	color: var(--black);
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		min-width: 100%;
+		padding: 20px;
+	}
+}

@@ -1,5 +1,5 @@
 .container {
-	background-color: #202020;
+	background-color: var(--gray);
 	width: min(90%, 400px);
 	min-height: 610px;
 	display: flex;

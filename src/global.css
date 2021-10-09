@@ -3,6 +3,7 @@
 	--white-light: rgba(255, 255, 255, 0.7);
 	--grey-dark: rgba(255, 255, 255, 0.15);
 	--gray-dark1: #121314;
+	--gray: #202020;
 	--black: #000000;
 	--green: #78b848;
 }
@@ -22,6 +23,10 @@ body {
 	min-height: 100vh;
 	max-width: 100vw;
 	overflow-x: hidden;
+}
+textarea,
+input {
+	font-family: "Montserrat", sans-serif;
 }
 
 a {
