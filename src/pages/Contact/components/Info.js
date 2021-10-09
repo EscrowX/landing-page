@@ -4,6 +4,7 @@ import polishFlag from "../../../assets/icons-poland.svg";
 import twitterIcon from "../../../assets/icons-twitter.svg";
 import telegramIcon from "../../../assets/icons-telegram.svg";
 import youtubeIcon from "../../../assets/icons-youtube.svg";
+import mediumIcon from "../../../assets/icons-medium.svg";
 
 export const Info = () => {
 	const {
@@ -39,18 +40,18 @@ export const Info = () => {
 						<img src={twitterIcon} />
 					</a>
 					<a
+						href="https://escrowx.medium.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img src={mediumIcon} />
+					</a>
+					<a
 						href="https://www.youtube.com/channel/UCpEFAQXdK6_SFqJjZlwTR7g"
 						target="_blank"
 						rel="noreferrer"
 					>
 						<img src={youtubeIcon} />
-					</a>
-					<a
-						href="https://t.me/escrowx_announcements"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<img src={telegramIcon} />
 					</a>
 				</div>
 			</div>

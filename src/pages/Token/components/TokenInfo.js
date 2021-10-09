@@ -8,7 +8,7 @@ export const TokenInfo = () => {
 			<div className={container}>
 				<h2 className={title}>Token</h2>
 				<div className={TBAsection}>
-					<p className={TBAtext}>To be announced. Details coming soon</p>
+					<p className={TBAtext}>To be announced. Details coming soon...</p>
 				</div>
 			</div>
 		</section>
