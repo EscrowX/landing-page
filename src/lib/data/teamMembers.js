@@ -29,19 +29,8 @@ export const teamMembers = [
 		name: "Radek Skrabucha",
 		professionTitle: "Front-end Developer",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ex, voluptatem delectus dignissimos amet fugit harum excepturi quos nisi. Eveniet, sequi obcaecati. Obcaecati vero animi similique eveniet dolor inventore aliquam?",
+			"Radek is talented front end developer, focused on delivering best quality solutions using ReactJS.",
 		linkedin: "",
-		twitter: "https://twitter.com/",
 		image: img3,
-	},
-	{
-		id: 4,
-		name: "Cezary Domagała",
-		professionTitle: "Legal Advisor",
-		description:
-			"Cezary Domagała is a profesional legal advisor passionated in blockchain technology. He graduated from the Law Faculty at the University of Wroclaw with a Master's Degree. He believes that blockchain technology means reduced cost, reduced risk, efficiency, and save time.",
-		linkedin: "https://www.linkedin.com/",
-		twitter: "https://twitter.com/",
-		image: img4,
-	},
+	}
 ];

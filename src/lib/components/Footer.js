@@ -5,6 +5,7 @@ import medium from "../../assets/icons-medium.svg";
 import telegram from "../../assets/icons-telegram.svg";
 import twitter from "../../assets/icons-twitter.svg";
 import youtube from "../../assets/icons-youtube.svg";
+import github from "../../assets/icons-github.svg";
 import logoShape from "../../assets/logo-s.svg";
 
 export const Footer = () => {
@@ -68,6 +69,9 @@ export const Footer = () => {
 					<p className={copyright}>©2021 EscrowX. All Rights Reserved</p>
 				</div>
 				<div className={socialLinks}>
+					<a className={socialLink} href="https://github.com/EscrowX/">
+						<img src={github} alt="EscrowX GitHub" />
+					</a>
 					<a className={socialLink} href="https://twitter.com/escrow_x">
 						<img src={twitter} alt="EscrowX Twitter" />
 					</a>

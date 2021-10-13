@@ -3,6 +3,7 @@ import infoStyles from "./Info.module.css";
 import polishFlag from "../../../assets/icons-poland.svg";
 import twitterIcon from "../../../assets/icons-twitter.svg";
 import telegramIcon from "../../../assets/icons-telegram.svg";
+import githubIcon from "../../../assets/icons-github.svg";
 import youtubeIcon from "../../../assets/icons-youtube.svg";
 import mediumIcon from "../../../assets/icons-medium.svg";
 
@@ -45,6 +46,13 @@ export const Info = () => {
 						rel="noreferrer"
 					>
 						<img src={mediumIcon} />
+					</a>
+					<a
+						href="https://github.com/EscrowX/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img src={githubIcon} />
 					</a>
 					<a
 						href="https://www.youtube.com/channel/UCpEFAQXdK6_SFqJjZlwTR7g"
