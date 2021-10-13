@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e482442e.chunk.css",
-    "main.js": "/static/js/main.22373c36.chunk.js",
-    "main.js.map": "/static/js/main.22373c36.chunk.js.map",
+    "main.css": "/static/css/main.83ac30fd.chunk.css",
+    "main.js": "/static/js/main.11022917.chunk.js",
+    "main.js.map": "/static/js/main.11022917.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9cee355c.js",
     "runtime-main.js.map": "/static/js/runtime-main.9cee355c.js.map",
     "static/js/2.ec90ab24.chunk.js": "/static/js/2.ec90ab24.chunk.js",
     "static/js/2.ec90ab24.chunk.js.map": "/static/js/2.ec90ab24.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e482442e.chunk.css.map": "/static/css/main.e482442e.chunk.css.map",
+    "static/css/main.83ac30fd.chunk.css.map": "/static/css/main.83ac30fd.chunk.css.map",
     "static/js/2.ec90ab24.chunk.js.LICENSE.txt": "/static/js/2.ec90ab24.chunk.js.LICENSE.txt",
     "static/media/domagala.96889238.png": "/static/media/domagala.96889238.png",
+    "static/media/icons-github.a9d01c72.svg": "/static/media/icons-github.a9d01c72.svg",
     "static/media/icons-medium.daa82848.svg": "/static/media/icons-medium.daa82848.svg",
     "static/media/icons-poland.5bab9462.svg": "/static/media/icons-poland.5bab9462.svg",
     "static/media/icons-telegram.c64755f3.svg": "/static/media/icons-telegram.c64755f3.svg",
@@ -29,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.9cee355c.js",
     "static/js/2.ec90ab24.chunk.js",
-    "static/css/main.e482442e.chunk.css",
-    "static/js/main.22373c36.chunk.js"
+    "static/css/main.83ac30fd.chunk.css",
+    "static/js/main.11022917.chunk.js"
   ]
 }
